@@ -1,0 +1,18 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.util.Scanner;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+// int dog = 7;
+//     int id = dog * 7;
+//     System.out.println("A idade do cachorro para humana é: "+ id);
+        double sal = 1412;
+            double gra = sal * 0.05;
+            double imp = sal * 0.07;
+            double tot = sal + gra - imp;
+System.out.println("O salario total com gratificação e imposto é: R$ "+ tot);
+    }
+}
